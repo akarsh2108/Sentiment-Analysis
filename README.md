@@ -6,5 +6,5 @@ Now, for a test sentence probability of it occuring in both the classes is calcu
 Laplace Smoothing is also applied here to account for a zero probability.
 
 Results - 
-The Dataset is split into train, validation and test in a 60:20:20 ratio.
+The Dataset is split into train and test in a 80:20 ratio, after which another split is made from the training set dividing it into 5 equal parts, in which 4 parts used as training set and 1 part used as validation set.
 K-Fold Cross Validation is applied here with k=5. Validation Accuracy obtained on all the k-folds is ~ 80 +/- 2 %. Accuracy obtained on the test dataset is roughly around 82%.
